@@ -1,6 +1,6 @@
 ## Install
 
-Install with composer...  `composer require mikemclin/passport-custom-request-grant`
+Install with composer...  `composer require CrixuAMG/passport-custom-request-grant`
 
 ### Versions
 
@@ -9,7 +9,7 @@ Install with composer...  `composer require mikemclin/passport-custom-request-gr
 
 ## Setup
 
-* Add `MikeMcLin\Passport\CustomRequestGrantProvider` to your list of providers **after** `Laravel\Passport\PassportServiceProvider`.
+* Add `CrixuAMG\Passport\CustomRequestGrantProvider` to your list of providers **after** `Laravel\Passport\PassportServiceProvider`.
 * Add `byPassportCustomRequest($request)` method to your `User` model (or whatever model you have configured to work with Passport).
     * The method should accept an `Illuminate\Http\Request` object.
     * You should authorize and retrieve user based on this request

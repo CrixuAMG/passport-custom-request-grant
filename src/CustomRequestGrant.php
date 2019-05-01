@@ -1,6 +1,6 @@
 <?php
 
-namespace MikeMcLin\Passport;
+namespace CrixuAMG\Passport;
 
 use Illuminate\Http\Request;
 use Laravel\Passport\Bridge\User;
